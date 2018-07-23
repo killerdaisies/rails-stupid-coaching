@@ -1,3 +1,30 @@
 // Place all the styles related to the questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.askfm {
+  border: solid, black;
+}
+
+.ask_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 200px
+}
+
+.ask_container h1, p {
+  color: rgb(80,80,80)
+}
+
+.answer_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 150px
+}
+
+.answer_container h1, h2, p {
+  color: rgb(80,80,80)
+}
